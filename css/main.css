@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+*{
+  padding:0;
+  margin:0;
+}
+html{
+  font:16px/1 Helvetica, 'sans-serif';
+  padding:0;
+  margin:0;
+
+
+}
+
+
+/*GLOBAL*/
+
+.container{
+  width:80%;
+  overflow:hidden;
+  margin:auto;
+}
+#about{
+  background-color:#f1f1f1;
+}
+
+/*HEADER*/
+header{
+  background-image:url("http://cdn.wallpapersafari.com/96/22/FXbjvc.jpg");
+  background-size:cover;
+  height:100vh;
+  padding:0;
+  margin:0;
+  flex-direction:column;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+
+
+
+}
+.port{
+  color:white;
+}
+
+#portfolio{
+  font-size:10em;
+  font-family: 'Roboto Condensed', sans-serif;
+  color:white;
+}
+
+h2{
+  color:black;
+}
+/*SOCIAL MEDIA*/
+a{
+  text-decoration:none;
+  color:white;
+}
+ul{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+ul li{
+  display:inline-block;
+  color:#f1f1f1;
+  padding:12px;
+  margin:5px;
+}
+#social-media li:hover{
+  background-color:rgba(74, 75, 76,0.6)
+}
+
+#social-media ul li:last-child{
+  width:26%;
+}
+#social-media ul li{
+  border:1px solid yellow;
+  border-radius:3px;
+  width:20%;
+  text-align:center;
+}
+#social-media{
+  width:26%;
+  margin-left:15%;
+}
+/*SHOWCASE*/
+#showcase{
+  padding:20px;
+}
+
+/*SECTION*/
+section{
+  background-color:#191919;
+}
+section#about {
+  width: 80%;
+  margin: auto;
+  height: 7em;
+  margin-top: 5%;
+  box-shadow: 0px 1px 1px black;
+  padding-bottom:20px;
+}
+section#about h3, section#about p{
+  margin:20px;
+}
+#skills{
+  margin-top:20px;
+  box-shadow: 0px 24x 3px white;
+
+}
+#skills h2{
+  color:white;
+  margin-left:350px;
+  margin-top:20px;
+}
+#skills ul{
+  margin-left:270px;
+}
+
+footer p{
+  text-align:center;
+  font-size:20px;
+  background-color:white;
+  padding:30px;
+}
